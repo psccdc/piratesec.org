@@ -1,5 +1,3 @@
-# jekyll-piratesec
+# piratesec.org
 
-A Seakpunk flavored Jekyll theme inspired by retro terminals.
-
-Just `bundle exec jekyll serve`
+Official website of the Pensacola State College Cyber Defense Club, home of PirateSec.

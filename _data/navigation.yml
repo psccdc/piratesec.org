@@ -1,4 +1,4 @@
-- title: About
-  url: /about
-- title: Archive
-  url: /archive
+- title: 'News'
+  url: /news
+- title: 'Schedule'
+  url: /schedule

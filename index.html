@@ -3,13 +3,67 @@ layout: homepage
 ---
 
 <section>
-    <h1>Welcome!</h1>
-    <p><a href="https://github.com/dpstrange/jekyll-piratesec" target="_blank">Jekyll PirateSec</a> is a Seakpunk flavored <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> theme inspired by retro terminals.</p>
+    <h1>Latest News</h1>
+    {% for post in site.categories.news limit: 1 %}
+    {% include news-entry.html %}
+    {% endfor %}
+    <p class="sub-section"><a href="{{ '/news' | absolute_url }}">Read More News &rarr;</a></p>
 </section>
 <section>
-    <h1>Latest Articles</h1>
-    {% for post in site.posts limit: 5 %}
-    {% include archive-item.html %}
-    {% endfor %}
-    <p class="sub-section"><a href="{{ '/archive' | absolute_url }}">Read More Articles &rarr;</a></p>
+    <h1>Information</h1>
+    <p class="info">Meeting Room: 2146 Pensacola Campus</p>
+    <p>The Cyber Defense Club meets the 1st and 3rd Thursday of every month at 5:00 PM to plan community initiatives and events. Be sure to check the <a href="{{ '/schedule' | absolute_url }}">schedule</a> for more events and training sessions.</p>
+</section>
+<section>
+    <h1>Resources</h1>
+    <p class="info">An active PirateMail account is required to access shared resources.</p>
+    <ul>
+        <li>Subscribe to our <a href="https://mailchi.mp/f8f89aeaeb2c/psc-cdc-newsletter">Newsletter</a></li>
+        <li>Join our <a href="https://discord.io/psccdc">Discord Server</a></li>
+        <li>View our projects on <a href="https://github.com/psccdc">GitHub</a></li>
+        <li>Scan through the <a href="https://kb.piratesec.org/">Knowledge Base</a> for guides and labs.</li>
+        <li>Access our <a href="https://studentspensacolastate.sharepoint.com/:f:/s/CyberDefenseClub/EgQeBM4lcdBDnKB3GBhUUngBqre7nL1qHcdcbVGQeEEdYA">Training Support Documents</a></li>
+        <li>Sharpen your skills in the <a href="https://gym.piratesec.org/">Gymnasium</a></li>
+    </ul>
+</section>
+<section>
+    <h1>Current Officers</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Connar More</td>
+                <td>President</td>
+            </tr>
+            <tr>
+                <td>Nathaniel Mathias</td>
+                <td>Vice President</td>
+            </tr>
+            <tr>
+                <td>Frank Olivas</td>
+                <td>Secretary</td>
+            </tr>
+            <tr>
+                <td>Theodore Sumrall</td>
+                <td>Treasurer</td>
+            </tr>
+            <tr>
+                <td>Stephanie Hu</td>
+                <td>Communications</td>
+            </tr>
+            <tr>
+                <td>Drew Gowan</td>
+                <td>Training Officer</td>
+            </tr>
+            <tr>
+                <td>Scott Butts</td>
+                <td>Resources</td>
+            </tr>
+        </tbody>
+    </table>
 </section>

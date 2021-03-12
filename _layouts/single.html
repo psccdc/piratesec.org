@@ -9,5 +9,10 @@ layout: default
         <img class="featured-image" src="{{ page.featured | absolute_url }}">
     </div>
     {% endif %}
+    {% if page.type == "post" %}
+    <div class="sub-section">
+        <p>Published {{ page.date | date: "%b %-d, %Y" }}</p>
+    </div>
+    {% endif %}
     {{ content }}
 </section>

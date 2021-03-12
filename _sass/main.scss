@@ -41,7 +41,7 @@ figure, code, pre {
   @include monospace;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 code.highlighter-rouge {
@@ -269,8 +269,6 @@ table {
   }
   
   .ascii {
-    font-size: 0.75rem;
-    line-height: 0.75rem;
     text-shadow: 0 0 1rem var(--link-color-transparent);
     overflow: hidden;
   }
@@ -353,10 +351,23 @@ table {
 
 // mobile
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) {
   .ascii {
-    font-size: 0.45rem !important;
-    line-height: 0.45rem !important;
-    transition: all 0.5ms ease;
+    font-size: 0.80rem !important;
+    line-height: 0.60rem !important;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  .ascii {
+    font-size: 0.60rem !important;
+    line-height: 0.50rem !important;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .ascii {
+    font-size: 0.40rem !important;
+    line-height: 0.30rem !important;
   }
 }
