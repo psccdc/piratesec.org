@@ -9,8 +9,8 @@ Club meetings will take place every 1st and 3rd Thursday of each month at 5:00 P
 
 | Session | Where | When |
 | --- | --- | --- |
-| Security Bootcamp | 2146 | Tuesday's from 4:00 PM to 6:00 PM |
-| Penetration Testing | 2146 | Thursday's from 4:00 PM to 6:00 PM |
+| Security Bootcamp | 2146 | Undetermined |
+| Penetration Testing | 2146 | Undetermined |
 
 # Fundraising
 
@@ -22,4 +22,4 @@ Fundraising Events TBA
 
 # Events
 
-- [March 2020 - National Cyber League](https://www.nationalcyberleague.org/spring-season-2020)
+- [March 2021 - National Cyber League](https://nationalcyberleague.org/competition)
