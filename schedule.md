@@ -3,7 +3,7 @@ layout: single
 title: "Schedule"
 ---
 
-Club meetings will take place every 1st and 3rd Thursday of each month at 5:00 PM in room 2146.
+Club meetings will take place every 1st Thursday of each month at 5:00 PM in room 2146.
 
 # Training
 
